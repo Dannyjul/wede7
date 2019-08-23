@@ -1,0 +1,87 @@
+html, body, section
+{
+    position: relative;
+    height: 100%;
+    scroll-behavior: smooth;
+} 
+
+section
+{
+    padding: 85px;
+    color: white;
+}
+
+h1
+{
+    margin-bottom: 30px;
+}
+
+#about
+{
+    color: black;
+    padding: 90px;
+}
+
+#experience
+{
+    background-color: black;
+    padding: 35px;
+}
+
+#experience .row
+{
+    padding: 10px;
+}
+
+#service
+{
+    background-color: chocolate;
+    padding: 30px;
+}
+
+.lapak
+{
+    overflow: hidden;
+}
+
+.lapak .card
+{
+    width: 30%;
+    color: black;
+    padding: 10px;
+    margin: 15px;
+    float: left;
+}
+
+.lapak .card img
+{
+    width: 75%;
+    margin: auto;
+}
+
+.lapak .card .btn
+{
+    width: 100%;
+    font-weight: bold;
+}
+
+
+
+#contact
+{
+    background-color: crimson;
+}
+
+.active
+{
+    border-bottom: 5px solid white;
+}
+
+.kiri
+{
+    background-color: black;
+    color: white;
+    height: 100%;
+    position: fixed;
+    padding-top: 70px;
+}
